@@ -12,7 +12,7 @@ foreach ($produtos as $produto){
 
 echo $this->Html->tag('h1', 'Produtos');
 
-$titulos = array('Nome', 'Quantidade', 'Duração', 'Idioma');
+$titulos = array('Nome', 'Quantidade', 'Valor', 'Modelo');
 $header = $this->Html->tableHeaders($titulos);
 $body = $this->Html->tableCells($detalhe);
 
